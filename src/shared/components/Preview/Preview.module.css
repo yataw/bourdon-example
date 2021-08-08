@@ -1,0 +1,18 @@
+
+.p-20 {
+    padding: 20px;
+}
+
+.imageContainer {
+    margin: .5rem auto;
+    width: 100px;
+    height: 100px;
+}
+
+.image {
+    width: 100%;
+}
+
+.align-center {
+    margin: 0 auto;
+}

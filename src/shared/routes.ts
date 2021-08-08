@@ -1,7 +1,7 @@
 /* eslint-disable security/detect-object-injection */
 const routes = {
-    home: '/',
-    page1: '/page-1',
+    client: '/',
+    teacher: '/teacher',
     page2: '/page-2',
 };
 

@@ -26,6 +26,10 @@ export default {
         'import/no-unassigned-import': 0,
         'import/no-named-as-default-member': 0,
         'prettier/prettier': 'error',
+        'import/order': 'off',
+        'arrow-parens': 0,
+        'no-return-assign': 0,
+        'security/detect-object-injection': 0,
     },
     // overrides: [
     //     {

@@ -20,7 +20,7 @@ module.exports = {
        }
 
        Also, by default, the preset does not follow any external modules (things in
-       node_modules or in yarn's plug'n'play magic). If you want to have that
+       node_modules or in yarn's plug'n'isPlayed magic). If you want to have that
        differently, just override it the options.doNotFollow key.
      */
     forbidden: [

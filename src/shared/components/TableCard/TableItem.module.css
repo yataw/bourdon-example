@@ -1,0 +1,44 @@
+
+.container {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    /*border: 1px solid orange;*/
+}
+
+.container.interactive {
+    cursor: pointer;
+}
+
+.container + .container {
+    margin-left: auto;
+}
+
+.wrapper {
+    position: relative;
+}
+.labelWrapper {
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.item {
+    position: absolute;
+    width: 100%;
+}
+
+.size-s {
+    width: 30px;
+    height: 30px;
+}
+
+.size-m {
+    width: 60px;
+    height: 60px;
+}
+
+.size-l {
+    width: 100px;
+    height: 100px;
+}

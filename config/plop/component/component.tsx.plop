@@ -1,7 +1,8 @@
-import * as React from 'react';
+import React from 'react';
+import css from './{{properCase componentName}}.module.css'
 
-const {{pascalCase componentName}} = (props) => {
-    return <div />;
+export const {{pascalCase componentName}} = (props) => {
+    return (
+        <div />
+    );
 };
-
-export default {{pascalCase componentName}};

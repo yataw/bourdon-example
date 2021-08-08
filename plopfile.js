@@ -18,15 +18,35 @@ module.exports = (plop) => {
                 {
                     type: 'pretty-add',
                     path:
+                        './src/shared/components/{{properCase componentName}}/index.tsx',
+                    templateFile: './config/plop/component/index.tsx.plop',
+                },
+                {
+                    type: 'pretty-add',
+                    path:
                         './src/shared/components/{{properCase componentName}}/{{properCase componentName}}.tsx',
                     templateFile: './config/plop/component/component.tsx.plop',
                 },
                 {
                     type: 'pretty-add',
                     path:
+                        './src/shared/components/{{properCase componentName}}/{{properCase componentName}}.module.css',
+                    templateFile: './config/plop/component/component.module.css.plop',
+                },
+                {
+                    type: 'pretty-add',
+                    path:
+                        './src/shared/components/{{properCase componentName}}/{{properCase componentName}}.module.css',
+                    templateFile: './config/plop/component/component.module.css.plop',
+                },
+/*
+                {
+                    type: 'pretty-add',
+                    path:
                         './src/shared/components/{{properCase componentName}}/{{properCase componentName}}.test.tsx',
                     templateFile: './config/plop/component/component.test.tsx.plop',
                 },
+*/
             ];
 
             return actions;
